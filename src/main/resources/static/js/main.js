@@ -19,6 +19,8 @@ function fire_ajax_submit() {
     request["values"] = $("#conversionValues").val();
     $("#btn-convert").prop("disabled", true);
 
+    console.log(request);
+
     $.ajax({
         type: "POST",
         contentType: "application/json",
