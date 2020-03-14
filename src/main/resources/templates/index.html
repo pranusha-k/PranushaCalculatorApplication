@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"></a>
+        </div>
+    </div>
+</nav>
+
+<div class="container" style="min-height: 500px">
+
+    <div class="starter-template">
+        <div class="text-center">
+            <h1>Calculator</h1>
+        </div>
+
+        <form id = "calculator">
+            <label for="number1">Number1:</label>
+            <input type="text" id="number1" name="number1"><br><br>
+            <label for="number2">Number2:</label>
+            <input type="text" id="number2" name="number2"><br><br>
+            <label for="operations">operation:</label>
+            <select id="operations">
+                <option value="add">Add</option>
+                <option value="sub">Sub</option>
+                <option value="div">Div</option>
+                <option value="mul">Mul</option>
+            </select>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" id="bth-convert"
+                            class="btn btn-primary btn-lg">Calculate
+                    </button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="feedback" class="text-center">
+    </div>
+
+</div>
+
+<div class="container">
+    <footer>
+    </footer>
+</div>
+
+<script type="text/javascript"
+        src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
