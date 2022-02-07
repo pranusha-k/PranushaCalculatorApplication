@@ -11,7 +11,7 @@
 * [Usage](#usage)
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project 1
 
 This project will show you how to build a web application using Spring Boot (REST structure), and Ajax.
 
